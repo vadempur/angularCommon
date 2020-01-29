@@ -5,13 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DoubleComponent } from './double/double.component';
+import { LeafletmapComponent } from './leafletmap/leafletmap.component';
 
 
 
 @NgModule({
   declarations: [
     AppComponent,
-    DoubleComponent
+    DoubleComponent,
+    LeafletmapComponent
   ],
   imports: [
     BrowserModule,

@@ -6,6 +6,9 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { DoubleComponent } from './double/double.component';
 import { LeafletmapComponent } from './leafletmap/leafletmap.component';
+import { HeaderComponent } from './layout/header/header.component';
+import { D3JsComponent } from './d3-js/d3-js.component';
+import { ExamplesComponent } from './examples/examples.component';
 
 
 
@@ -13,7 +16,10 @@ import { LeafletmapComponent } from './leafletmap/leafletmap.component';
   declarations: [
     AppComponent,
     DoubleComponent,
-    LeafletmapComponent
+    LeafletmapComponent,
+    HeaderComponent,
+    D3JsComponent,
+    ExamplesComponent
   ],
   imports: [
     BrowserModule,
